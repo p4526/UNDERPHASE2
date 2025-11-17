@@ -1,0 +1,421 @@
+.filterDevice {
+  	width: 100%;
+  	height: 874px;
+  	position: relative;
+  	background-color: #f5f7fa;
+  	overflow-y: auto;
+  	text-align: center;
+  	font-size: 16px;
+  	color: #111;
+  	font-family: 'Pretendard Variable';
+}
+.body {
+  	position: absolute;
+  	top: 134px;
+  	left: 0px;
+  	width: 402px;
+  	/* display: flex; */
+  	flex-direction: column;
+  	align-items: center;
+  	padding: 20px 0px 112px;
+  	box-sizing: border-box;
+  	text-align: left;
+}
+.deviceList {
+  	width: 370px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	gap: 12px;
+}
+.segmentedControl {
+  	width: 370px;
+  	height: 36px;
+  	border-radius: 12px;
+  	background-color: #d4eaf7;
+  	display: flex;
+  	align-items: center;
+  	text-align: center;
+  	font-size: 14px;
+  	color: #3572ef;
+}
+.selectIphone {
+  	height: 36px;
+  	width: 185px;
+  	border-radius: 12px;
+  	background-color: #fffefb;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 8px 20px;
+  	box-sizing: border-box;
+}
+.div {
+  	position: relative;
+  	line-height: 20px;
+  	font-weight: 600;
+}
+.selectGalaxy {
+  	height: 36px;
+  	width: 185px;
+  	border-radius: 12px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 8px 20px;
+  	box-sizing: border-box;
+  	color: #a0a6ad;
+}
+.filterDeviceDiv {
+  	position: relative;
+  	line-height: 20px;
+}
+.deviceIphone17ProMax {
+  	align-self: stretch;
+  	display: flex;
+  	align-items: flex-start;
+}
+.deviceFilterCard {
+  	height: 88px;
+  	width: 370px;
+  	border-radius: 20px;
+  	background-color: #fffefb;
+  	border: 1px solid #e2e6ec;
+  	box-sizing: border-box;
+  	display: flex;
+  	align-items: center;
+  	padding: 12px 20px;
+  	gap: 12px;
+}
+.img {
+  	height: 64px;
+  	width: 64px;
+  	position: relative;
+  	background-color: #b7bec8;
+}
+.contents {
+  	flex: 1;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+}
+.deviceName {
+  	position: relative;
+  	line-height: 24px;
+  	font-weight: 600;
+}
+.deviceColorPalette {
+  	display: flex;
+  	align-items: center;
+  	padding: 2px 0px;
+  	gap: 4px;
+}
+.deviceColorPaletteChild {
+  	height: 12px;
+  	width: 12px;
+  	position: relative;
+  	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2) inset;
+  	border-radius: 50%;
+  	background-color: #f78843;
+}
+.deviceColorPaletteItem {
+  	height: 12px;
+  	width: 12px;
+  	position: relative;
+  	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2) inset;
+  	border-radius: 50%;
+  	background-color: #49547e;
+}
+.deviceColorPaletteInner {
+  	height: 12px;
+  	width: 12px;
+  	position: relative;
+  	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2) inset;
+  	border-radius: 50%;
+  	background-color: #e7e7e7;
+}
+.deviceColorPaletteChild3 {
+  	height: 12px;
+  	width: 12px;
+  	position: relative;
+  	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2) inset;
+  	border-radius: 50%;
+  	background-color: #e5f2fa;
+}
+.deviceColorPaletteChild4 {
+  	height: 12px;
+  	width: 12px;
+  	position: relative;
+  	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2) inset;
+  	border-radius: 50%;
+  	background-color: #faf3e5;
+}
+.deviceColorPaletteChild5 {
+  	height: 12px;
+  	width: 12px;
+  	position: relative;
+  	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2) inset;
+  	border-radius: 50%;
+  	background-color: #fcfcfc;
+}
+.deviceColorPaletteChild6 {
+  	height: 12px;
+  	width: 12px;
+  	position: relative;
+  	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2) inset;
+  	border-radius: 50%;
+  	background-color: #181818;
+}
+.deviceColorPaletteChild7 {
+  	height: 12px;
+  	width: 12px;
+  	position: relative;
+  	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2) inset;
+  	border-radius: 50%;
+  	background-color: #e7d9f2;
+}
+.deviceColorPaletteChild8 {
+  	height: 12px;
+  	width: 12px;
+  	position: relative;
+  	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2) inset;
+  	border-radius: 50%;
+  	background-color: #bac79d;
+}
+.deviceColorPaletteChild9 {
+  	height: 12px;
+  	width: 12px;
+  	position: relative;
+  	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2) inset;
+  	border-radius: 50%;
+  	background-color: #a9bede;
+}
+.deviceColorPaletteChild12 {
+  	height: 12px;
+  	width: 12px;
+  	position: relative;
+  	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2) inset;
+  	border-radius: 50%;
+  	background-color: #cbbeb8;
+}
+.deviceColorPaletteChild13 {
+  	height: 12px;
+  	width: 12px;
+  	position: relative;
+  	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2) inset;
+  	border-radius: 50%;
+  	background-color: #c9c5c1;
+}
+.deviceColorPaletteChild20 {
+  	height: 12px;
+  	width: 12px;
+  	position: relative;
+  	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2) inset;
+  	border-radius: 50%;
+  	background-color: #a4b6f6;
+}
+.deviceColorPaletteChild21 {
+  	height: 12px;
+  	width: 12px;
+  	position: relative;
+  	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2) inset;
+  	border-radius: 50%;
+  	background-color: #b4d8d6;
+}
+.deviceColorPaletteChild22 {
+  	height: 12px;
+  	width: 12px;
+  	position: relative;
+  	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2) inset;
+  	border-radius: 50%;
+  	background-color: #f3b6de;
+}
+.header {
+  	position: absolute;
+  	top: 50px;
+  	left: 0px;
+  	height: 84px;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	font-size: 18px;
+}
+.filterDevicePageDescription {
+  	display: flex;
+  	align-items: flex-start;
+}
+.pageDescription {
+  	height: 80px;
+  	width: 402px;
+  	background-color: #fffefb;
+  	border-bottom: 1px solid #e2e6ec;
+  	box-sizing: border-box;
+  	display: flex;
+  	align-items: center;
+  	padding: 20px 16px;
+  	gap: 1px;
+}
+.goBack {
+  	height: 40px;
+  	width: 32px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 12px;
+  	box-sizing: border-box;
+}
+.contents8 {
+  	width: 304px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+}
+.title {
+  	align-self: stretch;
+  	position: relative;
+  	line-height: 20px;
+  	font-weight: 600;
+}
+.subTitle {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 15px;
+  	line-height: 20px;
+  	color: #a0a6ad;
+}
+.bottomfadeareaIndicator {
+  	position: absolute;
+  	bottom: 0px;
+  	left: calc(50% - 201px);
+  	background: linear-gradient(180deg, rgba(245, 247, 250, 0.05), #fffefb);
+  	width: 402px;
+  	height: 112px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 12px 0px 24px;
+  	box-sizing: border-box;
+  	gap: 12px;
+  	color: #fffefb;
+}
+.progressIndicator {
+  	width: 40px;
+  	height: 8px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	gap: 8px;
+}
+.processLevel1 {
+  	height: 8px;
+  	width: 8px;
+  	position: relative;
+  	border-radius: 50%;
+  	background-color: #d4eaf7;
+}
+.processLevel2 {
+  	height: 8px;
+  	width: 8px;
+  	position: relative;
+  	border-radius: 50%;
+  	background-color: #b7bec8;
+}
+.nextpageButton {
+  	width: 370px;
+  	height: 56px;
+  	border-radius: 16px;
+  	background-color: #3572ef;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 16px 24px;
+  	box-sizing: border-box;
+  	cursor: pointer;
+}
+
+.frame {
+  	align-self: stretch;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	gap: 0px;
+}
+.time {
+  	flex: 1;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 0px 6px 0px 16px;
+}
+.filterDeviceTime {
+  	position: relative;
+  	line-height: 22px;
+  	font-weight: 600;
+}
+.dynamicIslandSpacer {
+  	height: 10px;
+  	width: 124px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+.levels {
+  	flex: 1;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 0px 16px 0px 6px;
+  	gap: 7px;
+}
+.cellularConnectionIcon {
+  	height: 12.2px;
+  	width: 19.2px;
+  	position: relative;
+}
+.wifiIcon {
+  	height: 12.3px;
+  	width: 17.1px;
+  	position: relative;
+}
+.battery {
+  	height: 13px;
+  	width: 27.3px;
+  	position: relative;
+}
+.border {
+  	position: absolute;
+  	height: 100%;
+  	top: 0%;
+  	bottom: 0%;
+  	left: calc(50% - 13.65px);
+  	border-radius: 4.3px;
+  	border: 1px solid #000;
+  	box-sizing: border-box;
+  	width: 25px;
+  	opacity: 0.35;
+  	mix-blend-mode: normal;
+}
+.capIcon {
+  	position: absolute;
+  	height: 31.54%;
+  	top: 36.78%;
+  	bottom: 31.68%;
+  	left: calc(50% + 12.35px);
+  	max-height: 100%;
+  	width: 1.3px;
+  	opacity: 0.4;
+  	mix-blend-mode: normal;
+}
+.capacity {
+  	position: absolute;
+  	height: 69.23%;
+  	top: 15.38%;
+  	bottom: 15.38%;
+  	left: calc(50% - 11.65px);
+  	border-radius: 2.5px;
+  	background-color: #000;
+  	width: 21px;
+}
+
