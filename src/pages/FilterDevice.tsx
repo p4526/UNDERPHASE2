@@ -1,162 +1,44 @@
-import type { FunctionComponent, useCallback } from 'react';
-import styles from './FilterDevice.module.css';
+import React from "react";
+import { useNavigate } from "react-router-dom";
+import Layout from "../components/Layout";
+import Button from "../components/Button";
+import ProgressSection from "../components/ProgressSection";
 
+export default function FilterDevice() {
 
-const FilterDevice = () => {
-  	
-  	// const onNextPageButtonContainerClick = useCallback(() => {
-    // 		// Add your code here
-  	// }, []);
-  	
-  	return (
-    		<div className={styles.filterDevice}>
-      			<div className={styles.body}>
-        				<div className={styles.deviceList}>
-          					<div className={styles.segmentedControl}>
-            						<div className={styles.selectIphone}>
-              							<div className={styles.div}>아이폰</div>
-            						</div>
-            						<div className={styles.selectGalaxy}>
-              							<div className={styles.filterDeviceDiv}>갤럭시</div>
-            						</div>
-          					</div>
-          					<div className={styles.deviceIphone17ProMax}>
-            						<div className={styles.deviceFilterCard}>
-              							<div className={styles.img} />
-              							<div className={styles.contents}>
-                								<div className={styles.deviceName}>아이폰 17 Pro Max</div>
-                								<div className={styles.deviceColorPalette}>
-                  									<div className={styles.deviceColorPaletteChild} />
-                  									<div className={styles.deviceColorPaletteItem} />
-                  									<div className={styles.deviceColorPaletteInner} />
-                								</div>
-              							</div>
-            						</div>
-          					</div>
-          					<div className={styles.deviceIphone17ProMax}>
-            						<div className={styles.deviceFilterCard}>
-              							<div className={styles.img} />
-              							<div className={styles.contents}>
-                								<div className={styles.deviceName}>아이폰 17 Pro</div>
-                								<div className={styles.deviceColorPalette}>
-                  									<div className={styles.deviceColorPaletteChild} />
-                  									<div className={styles.deviceColorPaletteItem} />
-                  									<div className={styles.deviceColorPaletteInner} />
-                								</div>
-              							</div>
-            						</div>
-          					</div>
-          					<div className={styles.deviceIphone17ProMax}>
-            						<div className={styles.deviceFilterCard}>
-              							<div className={styles.img} />
-              							<div className={styles.contents}>
-                								<div className={styles.deviceName}>아이폰 17 Air</div>
-                								<div className={styles.deviceColorPalette}>
-                  									<div className={styles.deviceColorPaletteChild3} />
-                  									<div className={styles.deviceColorPaletteChild4} />
-                  									<div className={styles.deviceColorPaletteChild5} />
-                  									<div className={styles.deviceColorPaletteChild6} />
-                								</div>
-              							</div>
-            						</div>
-          					</div>
-          					<div className={styles.deviceIphone17ProMax}>
-            						<div className={styles.deviceFilterCard}>
-              							<div className={styles.img} />
-              							<div className={styles.contents}>
-                								<div className={styles.deviceName}>아이폰 17</div>
-                								<div className={styles.deviceColorPalette}>
-                  									<div className={styles.deviceColorPaletteChild7} />
-                  									<div className={styles.deviceColorPaletteChild8} />
-                  									<div className={styles.deviceColorPaletteChild9} />
-                  									<div className={styles.deviceColorPaletteChild5} />
-                  									<div className={styles.deviceColorPaletteChild6} />
-                								</div>
-              							</div>
-            						</div>
-          					</div>
-          					<div className={styles.deviceIphone17ProMax}>
-            						<div className={styles.deviceFilterCard}>
-              							<div className={styles.img} />
-              							<div className={styles.contents}>
-                								<div className={styles.deviceName}>아이폰 16 Pro Max</div>
-                								<div className={styles.deviceColorPalette}>
-                  									<div className={styles.deviceColorPaletteChild12} />
-                  									<div className={styles.deviceColorPaletteChild13} />
-                  									<div className={styles.deviceColorPaletteInner} />
-                  									<div className={styles.deviceColorPaletteChild6} />
-                								</div>
-              							</div>
-            						</div>
-          					</div>
-          					<div className={styles.deviceIphone17ProMax}>
-            						<div className={styles.deviceFilterCard}>
-              							<div className={styles.img} />
-              							<div className={styles.contents}>
-                								<div className={styles.deviceName}>아이폰 16 Pro</div>
-                								<div className={styles.deviceColorPalette}>
-                  									<div className={styles.deviceColorPaletteChild12} />
-                  									<div className={styles.deviceColorPaletteChild13} />
-                  									<div className={styles.deviceColorPaletteInner} />
-                  									<div className={styles.deviceColorPaletteChild6} />
-                								</div>
-              							</div>
-            						</div>
-          					</div>
-          					<div className={styles.deviceIphone17ProMax}>
-            						<div className={styles.deviceFilterCard}>
-              							<div className={styles.img} />
-              							<div className={styles.contents}>
-                								<div className={styles.deviceName}>아이폰 16 +</div>
-                								<div className={styles.deviceColorPalette}>
-                  									<div className={styles.deviceColorPaletteChild20} />
-                  									<div className={styles.deviceColorPaletteChild21} />
-                  									<div className={styles.deviceColorPaletteChild22} />
-                  									<div className={styles.deviceColorPaletteChild5} />
-                  									<div className={styles.deviceColorPaletteChild6} />
-                								</div>
-              							</div>
-            						</div>
-          					</div>
-          					<div className={styles.deviceIphone17ProMax}>
-            						<div className={styles.deviceFilterCard}>
-              							<div className={styles.img} />
-              							<div className={styles.contents}>
-                								<div className={styles.deviceName}>아이폰 16</div>
-                								<div className={styles.deviceColorPalette}>
-                  									<div className={styles.deviceColorPaletteChild20} />
-                  									<div className={styles.deviceColorPaletteChild21} />
-                  									<div className={styles.deviceColorPaletteChild22} />
-                  									<div className={styles.deviceColorPaletteChild5} />
-                  									<div className={styles.deviceColorPaletteChild6} />
-                								</div>
-              							</div>
-            						</div>
-          					</div>
-        				</div>
-      			</div>
-      			<div className={styles.header}>
-        				<div className={styles.filterDevicePageDescription}>
-          					<div className={styles.pageDescription}>
-            						<div className={styles.goBack} />
-            						<div className={styles.contents8}>
-              							<div className={styles.title}>사용할 기종을 선택해주세요!</div>
-              							<div className={styles.subTitle}>요정이 최저가로 찾아줄게요!</div>
-            						</div>
-          					</div>
-        				</div>
-      			</div>
-      			<div className={styles.bottomfadeareaIndicator}>
-        				<div className={styles.progressIndicator}>
-          					<div className={styles.processLevel1} />
-          					<div className={styles.processLevel2} />
-          					<div className={styles.processLevel2} />
-        				</div>
-        				<div className={styles.nextpageButton} /*onClick={onNextPageButtonContainerClick}*/>
-          					<div className={styles.deviceName}>다음으로</div>
-        				</div>
-      			</div>
-    		</div>);
-};
+  const navigate = useNavigate();
 
-export default FilterDevice as FunctionComponent;
+  const handleNextPageClick = () => {
+    // TODO: '/다음-페이지-경로'를 실제 경로로 바꿔줘
+    navigate('/carrier'); 
+  };
+
+  return (
+    <Layout title="사용할 기종을 선택해주세요!"
+    subtitle="요정이 최저가로 찾아줄게요!"
+      showFooter = {false}
+      showProgress = {true}
+
+      onButtonClick={handleNextPageClick}
+      >
+      <div>
+        <p>여기에 기종 선택 UI가 들어갑니다.
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+출처: https://hellomiao.tistory.com/entry/예제용-텍스트가-필요할-때-LipsumLorem-Ipsum [계속해보겠습니다:티스토리]
+        
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+출처: https://hellomiao.tistory.com/entry/예제용-텍스트가-필요할-때-LipsumLorem-Ipsum [계속해보겠습니다:티스토리]
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+출처: https://hellomiao.tistory.com/entry/예제용-텍스트가-필요할-때-LipsumLorem-Ipsum [계속해보겠습니다:티스토리]
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+출처: https://hellomiao.tistory.com/entry/예제용-텍스트가-필요할-때-LipsumLorem-Ipsum [계속해보겠습니다:티스토리]
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+출처: https://hellomiao.tistory.com/entry/예제용-텍스트가-필요할-때-LipsumLorem-Ipsum [계속해보겠습니다:티스토리]
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+출처: https://hellomiao.tistory.com/entry/예제용-텍스트가-필요할-때-LipsumLorem-Ipsum [계속해보겠습니다:티스토리]
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+출처: https://hellomiao.tistory.com/entry/예제용-텍스트가-필요할-때-LipsumLorem-Ipsum [계속해보겠습니다:티스토리]</p>
+      </div>
+    </Layout>
+  );
+}

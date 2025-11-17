@@ -1,13 +1,19 @@
-// src/App.tsx
-import { Routes, Route } from "react-router-dom"; // BrowserRouter 임포트 제거
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import FilterDevice from "./pages/FilterDevice";
+import FilterCurrentCarrier from"./pages/FilterCurrentCarrier";
+import FilterSwitch from "./pages/FilterSwitch";
+import ShopList from "./pages/ShopList";
 
 function App() {
   return (
-    // <Router> 대신 <Routes>만 사용
-    <Routes>
-      <Route path="/" element={<FilterDevice />} />
-    </Routes>
+    <Router>
+      <Routes>
+        <Route path="/" element={<FilterDevice />} />
+        <Route path="/carrier" element={<FilterCurrentCarrier />} />
+        <Route path="/switch" element={<FilterSwitch />} />
+        <Route path="/list" element={<ShopList />} />
+      </Routes>
+    </Router> 
   );
 }
 

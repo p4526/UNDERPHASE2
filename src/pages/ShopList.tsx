@@ -4,7 +4,7 @@ import Layout from "../components/Layout";
 import Button from "../components/Button";
 import ProgressSection from "../components/ProgressSection";
 
-export default function FilterCurrentCarrier() {
+export default function FilterSwitch() {
 
     const navigate = useNavigate();
     
@@ -15,13 +15,14 @@ export default function FilterCurrentCarrier() {
 
 
   return (
-    <Layout title="현재 사용 중인 통신사가 어디인가요?"
-    subtitle="최저가 분석을 위해 꼭 알아야해요."
-      showFooter = {false}
-      showProgress = {true}
-            onButtonClick={handleNextPageClick}
+    <Layout title="고객님 주변 최저가 대리점을 찾았어요!"
+    subtitle="가격이 다르면 차액을 환불해드려요."
+      showFooter = {true}
+      showProgress = {false}
 
-      step={2}
+        onButtonClick={handleNextPageClick}
+
+
       >
       <div>
         <p>여기에 기종 선택 UI가 들어갑니다.
